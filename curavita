@@ -1,0 +1,389 @@
+Present it like this:
+
+Curavita is a demonstration application (vehicle), while the actual project is the DevSecOps CI/CD Engine developed around it. The healthcare application serves as a real-world workload to demonstrate automated security scanning, CI/CD automation, Docker containerization, vulnerability management, and cloud deployment.
+
+That one sentence immediately makes you sound like you understand the project.
+
+1) TITLE OF THE PROJECT
+Answer
+
+Title:
+
+Curavita – DevSecOps CI/CD Pipeline for Secure Medical Records Management
+
+Explanation
+
+The project focuses on implementing a complete DevSecOps pipeline where every code change automatically undergoes security scanning, testing, Docker image creation, container vulnerability scanning, and deployment to AWS EC2. The Curavita healthcare application is used as the sample application to demonstrate these DevSecOps practices.
+
+2) CATEGORY
+Answer
+
+Primary Category:
+
+DevSecOps and Cloud Computing Project
+
+Secondary Category:
+
+Web Application Project
+
+Why?
+
+Because:
+
+Main focus = DevSecOps pipeline
+Secondary focus = Flask healthcare web application
+One-line viva answer
+
+This is primarily a DevSecOps CI/CD automation project and secondarily a web application project.
+
+3) INTRODUCTION / SRS
+Answer
+Problem
+
+Traditional deployment processes are:
+
+Manual
+Slow
+Error-prone
+Insecure
+
+Healthcare systems handle sensitive patient information, making security critical.
+
+Solution
+
+The project implements:
+
+Automated CI/CD pipeline
+Automated security scanning
+Docker containerization
+Cloud deployment
+Role-based access control
+Audit logging
+Objectives
+Automate software delivery
+Integrate security into CI/CD
+Deploy securely on cloud
+Reduce human errors
+Improve application security
+4) DEVELOPMENT TOOLS
+
+This question is guaranteed.
+
+Frontend Tools
+HTML5
+
+Used for:
+
+Structure of webpages
+Bootstrap 5
+
+Used for:
+
+Responsive UI
+Faster development
+Chart.js
+
+Used for:
+
+Analytics graphs
+Dashboard visualization
+Backend Tools
+Python
+
+Used because:
+
+Simple
+Powerful
+Large ecosystem
+Flask
+
+Used because:
+
+Lightweight
+Easy to integrate
+Flexible architecture
+SQLAlchemy
+
+Used for:
+
+Database ORM
+Database
+PostgreSQL
+
+Used because:
+
+Open source
+Secure
+Relational database
+ACID compliance
+DevSecOps Tools
+Git
+
+Version control
+
+GitHub
+
+Code repository
+
+GitHub Actions
+
+CI/CD automation
+
+Docker
+
+Containerization
+
+Bandit
+
+Python SAST scanning
+
+pip-audit
+
+Dependency vulnerability scanning
+
+Trivy
+
+Container vulnerability scanning
+
+AWS EC2
+
+Cloud hosting
+
+5) MODULES OF THE PROJECT
+
+Say:
+
+The project contains two layers:
+
+DevSecOps Layer
+Module 1
+
+Source Code Management
+
+Git
+GitHub
+Module 2
+
+Continuous Integration
+
+GitHub Actions
+Module 3
+
+Security Scanning
+
+Bandit
+pip-audit
+Module 4
+
+Automated Testing
+
+Pytest
+Module 5
+
+Containerization
+
+Docker
+Module 6
+
+Container Security
+
+Trivy
+Module 7
+
+Continuous Deployment
+
+AWS EC2
+Application Layer
+Authentication Module
+
+Login and session management
+
+User Management Module
+
+Role handling
+
+Medical Records Module
+
+File upload and management
+
+Approval Workflow Module
+
+Approval and rejection process
+
+Audit Log Module
+
+Activity tracking
+
+Notification Module
+
+Alerts and updates
+
+Analytics Module
+
+Reports and charts
+
+6) DATABASE MODEL / ER DIAGRAM
+
+Draw these tables:
+
+USERS
+ |
+ |
+DEPARTMENTS
+
+USERS
+ |
+ |
+MEDICAL_RECORDS
+
+MEDICAL_RECORDS
+ |
+ |
+APPROVALS
+
+USERS
+ |
+ |
+AUDIT_LOGS
+
+USERS
+ |
+ |
+NOTIFICATIONS
+
+Explain:
+
+Users
+
+Stores:
+
+Username
+Email
+Password
+Role
+Departments
+
+Stores hospital departments
+
+Medical Records
+
+Stores uploaded files
+
+Approvals
+
+Stores consultant decisions
+
+Audit Logs
+
+Stores activities
+
+Notifications
+
+Stores alerts
+
+This matches your report.
+
+7) INTERFACE DESIGN
+Login Page
+
+Purpose:
+
+Authentication
+Admin Dashboard
+
+Purpose:
+
+User management
+Monitoring
+Doctor Dashboard
+
+Purpose:
+
+Upload records
+Consultant Dashboard
+
+Purpose:
+
+Review records
+Patient Dashboard
+
+Purpose:
+
+View approved records
+Analytics Dashboard
+
+Purpose:
+
+Visualize data
+8) AREA OF USE / FUTURE ENHANCEMENT
+Current Use
+
+Can be used in:
+
+Hospitals
+Clinics
+Diagnostic centers
+Future Enhancement
+
+This answer impresses examiners:
+
+Kubernetes deployment
+AI-powered diagnosis assistance
+Blockchain audit verification
+Mobile application
+Multi-hospital integration
+Multi-cloud deployment
+SIEM integration
+Real-time monitoring
+9) INTRODUCTION TO DEVELOPMENT TOOLS
+Git
+
+Version control system.
+
+GitHub
+
+Remote repository.
+
+GitHub Actions
+
+Automates CI/CD.
+
+Docker
+
+Packages application into containers.
+
+AWS EC2
+
+Provides cloud server.
+
+Bandit
+
+Scans Python code for vulnerabilities.
+
+pip-audit
+
+Scans Python dependencies.
+
+Trivy
+
+Scans Docker images.
+
+PostgreSQL
+
+Stores application data.
+
+Flask
+
+Backend framework.
+
+10) CONCLUSION
+
+Memorize this exactly:
+
+This project successfully demonstrates a complete DevSecOps CI/CD pipeline integrated with a Flask-based healthcare application. The system automates security scanning using Bandit, pip-audit, and Trivy, performs automated testing, builds Docker containers, and deploys securely to AWS EC2. The project proves how DevSecOps practices can improve software security, deployment speed, reliability, and scalability while reducing manual effort and human errors.
+
+FINAL 30-SECOND INTRODUCTION (VERY IMPORTANT)
+
+When you enter the viva, say:
+
+My project is Curavita – DevSecOps CI/CD Pipeline for Secure Medical Records Management. Although Curavita is a Flask-based healthcare web application, the primary focus of the project is the DevSecOps engine built around it. The application serves as a vehicle to demonstrate CI/CD automation, security integration, Docker containerization, vulnerability scanning using Bandit, pip-audit, and Trivy, and automated deployment to AWS EC2 through GitHub Actions. The goal is to achieve secure, automated, and reliable software delivery.
